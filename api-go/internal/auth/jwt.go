@@ -27,7 +27,7 @@ func GenerateToken(username string) (string, error) {
 }
 
 // Token fijo para validación
-const validToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYXBpLWFjY2VzcyJ9.0q6QFJ4YMoKC1RiHtO-PKzIcOqhdU2qZVhb7735kcX4"
+#const validToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYXBpLWFjY2VzcyJ9.0q6QFJ4YMoKC1RiHtO-PKzIcOqhdU2qZVhb7735kcX4"
 
 func ValidateToken(tokenStr string) (*Claims, error) {
 	if tokenStr != validToken {
